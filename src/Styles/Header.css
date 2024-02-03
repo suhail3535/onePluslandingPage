@@ -1,0 +1,101 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: rgba(0, 0, 0, .95);
+    width: 100%;
+
+}
+.container img{
+    transition: transform 0.4s cubic-bezier(.5, .15, 0, 1), margin 0.4s cubic-bezier(.5, .15, 0, 1);
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+}
+
+.bottom-left p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+}
+.top-left {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+.top-left p{
+    font-size: 1.2rem;
+
+}
+.top-left h1 {
+    font-size:2.5rem;
+    font-weight: 500;
+    color: black;
+    line-height: 3rem;
+}
+.buy_now_div {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    gap: 1rem;
+    margin-top: 10px;
+
+}
+
+
+.buy_now_div button {
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: .2rem 2rem;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+
+.buy_now_div button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(59, 59, 59, 0.897);
+    transition: left 0.3s ease-in-out;
+}
+
+.buy_now_div button:hover:before {
+    left: 0;
+}
+
+.buy_now_div button:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+.buy_now_div a {
+    text-decoration: underline;
+
+
+}
+
+
+
+
+.buy_now_div a:hover {
+    text-decoration: underline;
+    color: rgb(70, 70, 236);
+
+
+}

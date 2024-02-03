@@ -1,0 +1,72 @@
+
+.keybord_card_wrapper {
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    /* background-color: black; */
+    color: white;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.keybord_sectionimage_div {
+    width: 70%;
+
+    cursor: pointer;
+}
+
+
+
+
+.keybord_sectionimage_div img {
+    width: 100%;
+    margin: auto;
+    transition: transform 0.4s cubic-bezier(.5, .15, 0, 1), margin 0.4s cubic-bezier(.5, .15, 0, 1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.keybord_sectionimage_div img:hover {
+    transform: scale(1.02) translateX(2px);
+}
+.keybordcard_content_div {
+    width: 30%;
+
+margin-left: 1rem;
+text-align: left;
+}
+
+.keybordcard_content_div h4 {
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+}
+#one_plus_keybord {
+    font-size: 2.8rem;
+    text-align: left;
+font-weight: 600;
+    color: white;
+
+}
+.price_listing_wrapper_keybord {
+    margin-top: 12.5rem;
+
+    color: white;
+}
+
+
+.price_listing_wrapper_keybord p {
+    color: white;
+    text-align: left;
+    line-height: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.price_listing_wrapper_keybord h5 {
+    color: white;
+    text-align: left;
+}
+
+
+
+
+

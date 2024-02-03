@@ -1,0 +1,117 @@
+.shot_card_container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap:1rem;
+
+width: 90%;
+margin: auto;
+}
+.shot_card img {
+    width: 100%;
+        transition: transform 0.4s cubic-bezier(.5, .15, 0, 1), margin 0.4s cubic-bezier(.5, .15, 0, 1);
+    object-fit: cover;
+}
+
+.shot_card img:hover{
+transform: scale(1.02) translateX(2px);
+cursor: pointer;
+}
+.shot_card h1 {
+    font-size: 2rem;
+}
+.shot_card p{
+font-size: 1rem;
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+}
+.achor_tag{
+text-decoration: underline;
+
+}
+.achor_tag:hover {
+    text-decoration: underline;
+    color: blue;
+
+}
+
+/* ----------Media Query--------- */
+/* ----------For mobile screen--------- */
+@media screen and (min-width:280px) and (max-width:420px) {
+    .shot_card_container {
+            display: block;
+
+            gap: 1rem;
+
+            width: 90%;
+            margin: auto;
+        }
+    .shot_card{
+
+        padding: 10px;
+    }
+        .shot_card img {
+            width: 100%;
+            margin-bottom: 20px;
+            transition: transform 0.4s cubic-bezier(.5, .15, 0, 1), margin 0.4s cubic-bezier(.5, .15, 0, 1);
+            object-fit: cover;
+        }
+
+        .shot_card img:hover {
+            transform: scale(1.02) translateX(2px);
+            cursor: pointer;
+        }
+
+        .shot_card h1 {
+            font-size: 2rem;
+            color:black;
+        }
+
+        .shot_card p {
+            font-size: 1rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: black;
+        }
+
+}
+/* ----------For Tablet screen--------- */
+@media screen and (min-width:421px) and (max-width:768px) {
+    .shot_card_container {
+        display: block;
+
+        gap: 1rem;
+
+        width: 90%;
+        margin: auto;
+    }
+
+    .shot_card {
+
+        padding: 10px;
+    }
+
+    .shot_card img {
+        width: 100%;
+        margin-bottom: 20px;
+        transition: transform 0.4s cubic-bezier(.5, .15, 0, 1), margin 0.4s cubic-bezier(.5, .15, 0, 1);
+        object-fit: cover;
+    }
+
+    .shot_card img:hover {
+        transform: scale(1.02) translateX(2px);
+        cursor: pointer;
+    }
+
+    .shot_card h1 {
+        font-size: 2rem;
+        color: black;
+    }
+
+    .shot_card p {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: black;
+    }
+
+}

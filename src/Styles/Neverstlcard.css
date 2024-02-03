@@ -1,0 +1,66 @@
+.neverstl_card_wrapper {
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    /* background-color: black; */
+    color: white;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+
+
+.neverstl_content_div {
+    width: 30%;
+
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.neverstl_content_div h4 {
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+#one_plus_stlcard {
+    font-size: 2.5rem;
+    text-align: left;
+    font-weight: 600;
+    color: white;
+
+}
+
+.price_listing_wrapper_stlcard {
+    margin-top: 17.5rem;
+
+    color: white;
+}
+
+
+.price_listing_wrapper_stlcard p {
+    color: white;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.price_listing_wrapper_stlcard h5 {
+    color: white;
+    text-align: left;
+}
+.sectionimage_div_neverstl {
+    width: 65%;
+}
+
+.sectionimage_div_neverstl img {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+        transition: transform 0.4s cubic-bezier(.5, .15, 0, 1), margin 0.4s cubic-bezier(.5, .15, 0, 1);
+    object-fit: cover;
+}
+.sectionimage_div_neverstl img:hover{
+transform: scale(1.02) translateX(2px);
+    cursor: pointer;
+
+}

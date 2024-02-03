@@ -1,0 +1,117 @@
+.main_comunity_container {
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    justify-content: space-between;
+
+}
+
+.comunity_content_div {
+    width: 30%;
+margin-right: 10px;
+    text-align: left;
+    /* background-color:black; */
+}
+
+#one_plus_comunity {
+    font-size: 3rem;
+    text-align: left;
+    color: black;
+    line-height: 3rem;
+}
+
+.sectionimage_div {
+    width: 70%;
+}
+
+.sectionimage_div img {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    object-fit: cover;
+        transition: transform 0.4s cubic-bezier(.5, .15, 0, 1), margin 0.4s cubic-bezier(.5, .15, 0, 1);
+}
+.sectionimage_div img:hover{
+transform: scale(1.02) translateX(2px);
+    cursor: pointer;
+}
+
+
+.price_listing_wrapper_comunity {
+    margin-top: 15rem;
+    line-height: 2rem;
+    color: black;
+}
+
+.price_listing_wrapper_comunity p {
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+
+@media screen and (min-width:280px) and (max-width:420px) {
+
+.main_comunity_container {
+        width: 90%;
+        margin: 3rem auto;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 1rem;
+
+
+    }
+
+    .comunity_content_div {
+        width: 100%;
+        margin-right: 10px;
+        text-align: left;
+        /* background-color:black; */
+    }
+
+    #one_plus_comunity {
+        font-size: 3rem;
+        text-align: left;
+        color: black;
+        line-height: 3rem;
+    }
+
+    .sectionimage_div {
+        width: 100%;
+    }
+
+    .sectionimage_div img {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.4s cubic-bezier(.5, .15, 0, 1), margin 0.4s cubic-bezier(.5, .15, 0, 1);
+    }
+
+    .sectionimage_div img:hover {
+        transform: scale(1.02) translateX(2px);
+        cursor: pointer;
+    }
+
+
+    .price_listing_wrapper_comunity {
+        margin-top: 15rem;
+        line-height: 2rem;
+        color: black;
+    }
+
+    .price_listing_wrapper_comunity p {
+        color: black;
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.4rem;
+    }
+
+
+
+
+}

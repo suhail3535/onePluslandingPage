@@ -1,0 +1,114 @@
+
+.bottom_section_wrapper {
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+
+    background-color: black;
+
+    padding: 1rem;
+    justify-content: space-between;
+}
+.content_div_bottom_section {
+    width: 30%;
+    margin-left: 2rem;
+}
+
+.content_div_bottom_section h4 {
+    color: white;
+    font-size: 1.5rem;
+}
+#bottom_one_plus_wrapper {
+    font-size: 3rem;
+
+    color: white;
+
+}
+
+.bottom_section_price_listing_wrapper {
+    margin-top: 8rem;
+    line-height: 2rem;
+
+    color: white;
+}
+
+.bottom_section_price_listing_wrapper p {
+    color: white;
+    line-height: 1.2rem;
+    font-weight: 400;
+}
+
+.bottom_section_price_listing_wrapper h5 {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.bottom_button_div {
+
+    width: 100%;
+
+    margin-top: 20px;
+}
+
+.bottom_button_div button {
+    padding: 0.2rem 2.5rem;
+
+    width: 200px;
+    border: none;
+    background-color: white;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom_button_div button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63, 62, 62, 0.74);
+    transition: left 0.3s ease-in-out;
+}
+
+.bottom_button_div button:hover:before {
+    left: 0;
+}
+
+.bottom_button_div button:nth-child(2) {
+    border: 1px solid white;
+    color: black
+}
+
+.bottom_button_div button:nth-child(1):hover {
+    border: none;
+    background-color: rgba(63, 62, 62, 0.74);
+    color: white;
+}
+
+.bottom_button_div button:nth-child(2):hover {
+    border: 1px solid white;
+    background-color: rgba(63, 62, 62, 0.74);
+    color: black;
+}
+
+
+
+.bottom_sectionimage_div{
+    width: 65%;
+}
+
+.bottom_sectionimage_div img {
+    width: 100%;
+    height: 100%;
+        transition: transform 0.4s cubic-bezier(.5, .15, 0, 1), margin 0.4s cubic-bezier(.5, .15, 0, 1);
+    object-fit: cover;
+}
+
+
+.bottom_sectionimage_div img:hover {
+    transform: scale(1.02) translateX(2px);
+    cursor: pointer;
+}
